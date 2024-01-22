@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:manoj_dai/presentation/screens/contact_us.dart';
 
 import 'presentation/screens/language_screen.dart';
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const LanguageScreen(),
+      home: const ContactUs(),
     );
   }
 }
